@@ -8,7 +8,9 @@
 // 2. Create a collection called bounties
     //db.createCollection('bounties')
 
+    
 // ADD THE ANIMAL BOUNTIES
+
 // 1. Insert the given "Thanoceros" bounty object
 // db.bounties.insertOne({
 //     name: "Thanoceros",
@@ -100,8 +102,10 @@
 //db.bounties.find( {$and: [{location: 'Woodlands'},{species:'Groundhog'}] })
 
 // Update and Delete
+
 // 1. Update the reward for Polarwind to 10000
 // db.bounties.updateOne({name: 'Polarwind'}, {$set: {reward:10000}})
+
 // 2. Remove Lokinkajou
 //db.bounties.deleteOne({name:"Lokinkajou"})
 
